@@ -5,7 +5,10 @@ body {
   padding-top: 60px;
 }
 
-/* Navigation bar styles start */
+
+/*||||||||||||||||||||||||||||||||*/
+/*  NAVIGATION BAR STYLES START  */
+/*|||||||||||||||||||||||||||||||*/
 .navbar-brand img{
   height: 40px;
 }
@@ -42,9 +45,15 @@ color: #1b94dd;
   border-radius: 2px;
   box-shadow: 0 0px 15px rgb(0,0,0,0.25);
 }
-/* Navigation bar styles end */
+/*||||||||||||||||||||||||||||||||*/
+/*   NAVIGATION BAR STYLES END   */
+/*|||||||||||||||||||||||||||||||*/
 
-/* Intro styles start */
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*       INTRO STYLES START      */
+/*|||||||||||||||||||||||||||||||*/
 #intro{
   width: 100%;
   height: 80vh;
@@ -54,10 +63,10 @@ color: #1b94dd;
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #333;
+  color: #0b1853;
 }
 #intro h2{
-  color: #989898;
+  color: #182b8b;
   margin: 10px 0;
   font-size: 26px;
 }
@@ -71,7 +80,8 @@ color: #1b94dd;
   opacity: 0.8;
 }
 #intro hr{
-  border: 2px solid #333;
+  border: 2px solid #0b1853;
+  opacity: 0.9;
   margin-top: 10px;
   margin-left: 0;
   margin-bottom: 20px;
@@ -126,12 +136,17 @@ color: #1b94dd;
     margin-bottom: 100px;
   }
 }
-/* Intro styles end
+/*||||||||||||||||||||||||||||||||*/
+/*        INTRO STYLES END       */
+/*|||||||||||||||||||||||||||||||*/
 
 
-/* Intro-transition styles start*/
+
+/*||||||||||||||||||||||||||||||||*/
+/*  INTRO-TRANSITION STYLES START */
+/*|||||||||||||||||||||||||||||||*/
 #intro-transition{
-  background-color: #0b1853;
+  background-color: #1b94dd;
   color: #eee;
   padding: 20px 0;
   text-align: center;
@@ -155,5 +170,54 @@ color: #1b94dd;
     margin-bottom: 10px;
   }
 }
+/*||||||||||||||||||||||||||||||||*/
+/*  INTRO-TRANSITION STYLES END  */
+/*|||||||||||||||||||||||||||||||*/
 
-/* Intro-transition styles end*/
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*      ABOUT US STYLES START    */
+/*|||||||||||||||||||||||||||||||*/
+#about{
+  background: linear-gradient(45deg, #0b1853 50%, #fff 50%);
+  padding: 20px 0;
+}
+#about .heading{
+  margin: 10px auto;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0b1853;
+}
+#about hr{
+  border: 2px solid #0b1853;
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 20%;
+}
+#about-desc{
+  color:white;
+}
+@media (max-width:998px){
+  #about{
+    background: linear-gradient(180deg, #fff 50%, #0b1853 50%);
+    text-align: center;
+  }
+  #about .btn{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  #about .heading {
+    font-size: 28px;
+  }
+  #about-desc{
+    margin-top: 15px;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*       ABOUT US STYLES END     */
+/*|||||||||||||||||||||||||||||||*/
