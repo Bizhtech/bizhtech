@@ -209,6 +209,9 @@ color: #1b94dd;
   #about .btn{
     margin: 0 auto;
   }
+  #about .img-fluid{
+    max-width: 75%;
+  }
 }
 @media (max-width: 768px) {
   #about .heading {
@@ -220,4 +223,70 @@ color: #1b94dd;
 }
 /*||||||||||||||||||||||||||||||||*/
 /*       ABOUT US STYLES END     */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*     SERVICES STYLES START     */
+/*|||||||||||||||||||||||||||||||*/
+#services{
+  padding: 40px 0;
+  background: linear-gradient(127.5deg, #fff 50%, #0b1853 50%);
+}
+#services .heading{
+  margin: 10px auto;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0b1853;
+}
+#services hr{
+  border: 2px solid #0b1853;
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 20%;
+}
+.card{
+  margin: 20px 0;
+  padding-top: 15px;
+  border-radius: 25px;
+  box-shadow: 0 0px 15px rgb(0,0,0,0.25);
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card-img-top{
+  width: 50% !important;
+  margin: 0 auto !important;
+}
+.card-title{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1028a5;
+  cursor: default;
+}
+.card-body{
+  padding: 0;
+}
+.card-deck{
+  flex-direction: row !important;
+  -ms-flex-direction: row !important;
+}
+@media (max-width: 768px) {
+  #services .heading {
+    font-size: 28px;
+  }
+  .card{
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+  .card-title{
+    font-size: 1rem;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*      SERVICES STYLES END       */
 /*|||||||||||||||||||||||||||||||*/
