@@ -406,6 +406,7 @@ nav ul li a.current{
   }
   #teamMember1,#teamMember2{
     border-bottom: 1px dotted #0b1853;
+    border-right: 0px;
   }
 }
 /*||||||||||||||||||||||||||||||||*/
