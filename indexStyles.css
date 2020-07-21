@@ -45,6 +45,12 @@ color: #1b94dd;
   border-radius: 2px;
   box-shadow: 0 0px 15px rgb(0,0,0,0.25);
 }
+nav ul li a.current{
+  border: 1px solid transparent;
+  color:#eee;
+  background-color: #1b94dd;
+  border-radius: 1.5rem;
+}
 /*||||||||||||||||||||||||||||||||*/
 /*   NAVIGATION BAR STYLES END   */
 /*|||||||||||||||||||||||||||||||*/
@@ -174,9 +180,9 @@ color: #1b94dd;
 
 
 
-/*||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||||*/
 /*  INTRO-TRANSITION PHONE STYLES START */
-/*|||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||*/
 #intro-transition-phone{
   /*background-color: #1b94dd;*/
   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
@@ -185,7 +191,6 @@ color: #1b94dd;
   padding: 20px 0;
   text-align: center;
   /* display: block; */
-  height: 40vh;
 }
 #intro-transition-phone h3{
   font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
@@ -209,9 +214,9 @@ color: #1b94dd;
     margin-bottom: 10px;
   }
 }
-/*||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||*/
 /*  INTRO-TRANSITION PHONE STYLES END  */
-/*|||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||*/
 
 
 
@@ -220,7 +225,7 @@ color: #1b94dd;
 /*|||||||||||||||||||||||||||||||*/
 #about{
   background: linear-gradient(45deg, #0b1853 50%, #fff 50%);
-  padding: 20px 0;
+  padding: 30px 0 20px 0;
 }
 #about .heading{
   margin: 10px auto;
@@ -240,7 +245,7 @@ color: #1b94dd;
 #about-desc{
   color:white;
 }
-@media (max-width:998px){
+@media (max-width:991px){
   #about{
     background: linear-gradient(180deg, #fff 50%, #0b1853 50%);
     text-align: center;
@@ -336,7 +341,7 @@ color: #1b94dd;
 /*       TEAM STYLES START        */
 /*|||||||||||||||||||||||||||||||*/
 #team{
-  padding: 20px 0;
+  padding: 30px 0 20px 0;
   background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
   background: linear-gradient(right, #0072ff, #00c6ff);
 }
@@ -413,8 +418,7 @@ color: #1b94dd;
 /*      SKILLS STYLES START    */
 /*|||||||||||||||||||||||||||||||*/
 #skills{
-  /* background: linear-gradient(45deg, #0b1853 50%, #fff 50%); */
-  padding: 20px 0;
+  padding: 30px 0 20px 0;
 }
 #skills .heading{
   margin: 10px auto;
@@ -422,6 +426,10 @@ color: #1b94dd;
   font-weight: 700;
   /* color: #0b1853; */
   color:#ffffff;
+}
+#skills .row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 #skills hr{
   /* border: 2px solid #0b1853; */
@@ -433,9 +441,6 @@ color: #1b94dd;
   margin-right: auto;
   margin-bottom: 20px;
   width: 12%;
-}
-#skills-desc{
-  color:white;
 }
 .bg-skills{
   background-color: #0b1853;
@@ -482,7 +487,7 @@ color: #1b94dd;
 #contact{
   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
   background: linear-gradient(left, #0072ff, #00c6ff);
-  padding: 40px 0;
+  padding: 80px 0;
 }
 .contact-form{
   background: #fff;
