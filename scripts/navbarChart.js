@@ -24,7 +24,6 @@ var chart = new Chart(ctx, {
         labels: ['HTML5', 'CSS3', 'Javascript', 'jQuery', 'Bootstrap' , 'Wordpress'],
 
         datasets: [{
-          label: 'Web Development',
           backgroundColor: 'rgba(255, 0, 0, 0.1)',
           borderColor: '#000000',
           borderWidth: 0.5,
@@ -105,7 +104,6 @@ var chart2 = new Chart(ctx2, {
       labels: ['C++', 'Python', 'Java', 'VB.NET'],
 
       datasets: [{
-        label: 'Web Development',
         backgroundColor: 'rgba(255, 0, 0, 0.1)',
         borderColor: '#000000',
         borderWidth: 0.5,
@@ -166,7 +164,6 @@ var chart3 = new Chart(ctx3, {
       labels: ['Photoshop', 'Illustrator', 'Premiere Pro', 'After Effects', 'Adobe XD'],
 
       datasets: [{
-        label: 'Web Development',
         backgroundColor: 'rgba(255, 0, 0, 0.1)',
         borderColor: '#000000',
         borderWidth: 0.5,
@@ -227,7 +224,6 @@ var chart4 = new Chart(ctx4, {
       labels: ['Audacity', 'Processing', 'Microsoft Office'],
 
       datasets: [{
-        label: 'Web Development',
         backgroundColor: 'rgba(255, 0, 0, 0.1)',
         borderColor: '#000000',
         borderWidth: 0.5,
