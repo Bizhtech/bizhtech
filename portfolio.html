@@ -50,10 +50,10 @@
             <a class="nav-link" href="index.html#skills" onclick="closeNav()">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#portfolio" onclick="closeNav()">Portfolio</a>
+            <a class="nav-link" href="index.html#contact" onclick="closeNav()">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#contact" onclick="closeNav()">Contact</a>
+            <a class="nav-link active" href="#portfolio" onclick="closeNav()">Portfolio</a>
           </li>
         </ul>
       </div>
@@ -68,9 +68,17 @@
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3 text-center" id="pageHeading">Portfolio</h1>
       <hr>
-      
       <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('website')"> Websites</button>
+          <button class="btn" onclick="filterSelection('game')"> Games</button>
+          <button class="btn" onclick="filterSelection('VR')"> Virtual Reality</button>
+          <button class="btn" onclick="filterSelection('others')"> Others</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv website">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/personalPortfolio/mockup.png" alt="">
             <div class="card-body">
@@ -81,7 +89,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv website game">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/comic1/mockup.png" alt="">
             <div class="card-body">
@@ -92,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv VR game">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/funkaari/logo.png" alt="">
             <div class="card-body">
@@ -103,7 +111,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv website">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/cuyagua/mockup.png" alt="">
             <div class="card-body">
@@ -114,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv VR game">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/stash/1.png" alt="">
             <div class="card-body">
@@ -125,7 +133,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv website">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/vengeance/mockup.png" alt="">
             <div class="card-body">
@@ -136,7 +144,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv website">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/nyuadSites/mockup.png" alt="">
             <div class="card-body">
@@ -147,7 +155,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv game">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/maze/1.jpg" alt="">
             <div class="card-body">
@@ -158,7 +166,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv game">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/tetris/1.jpg" alt="">
             <div class="card-body">
@@ -169,7 +177,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv website">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/quarantine/mockup.png" alt="">
             <div class="card-body">
@@ -180,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv game">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/wordSearch/1.jpg" alt="">
             <div class="card-body">
@@ -191,7 +199,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv others">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/soloTrainer/1.png" alt="">
             <div class="card-body">
@@ -202,7 +210,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item filterDiv game">
           <div class="card h-100">
             <img class="card-img-top" src="images/portfolio/obstruction/1.jpg" alt="">
             <div class="card-body">
@@ -1045,7 +1053,7 @@
   <!-- Custom JavaScript for this template -->
   <script src="scripts/navbarShadow.js" charset="utf-8"></script>
   <script src="scripts/navBarClose.js" charset="utf-8"></script>
-
+  <script src="scripts/portfolioFilters.js" charset="utf-8"></script>
 </body>
 
 </html>
