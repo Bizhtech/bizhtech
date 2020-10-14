@@ -404,7 +404,7 @@ nav ul li a.current{
   #team .heading{
     font-size: 28px;
   }
-  #teamMember1,#teamMember2{
+  #teamMember1,#teamMember2,#teamMember3{
     border-bottom: 1px dotted #0b1853;
     border-right: 0px;
   }
