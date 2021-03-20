@@ -379,7 +379,7 @@ nav ul li a.current{
   padding: 7px;
   box-shadow: 0 7px 10px #999;
 }
-#teamMember1,#teamMember2,#teamMember3{
+#teamMember1,#teamMember2,#teamMember3,#teamMember4{
   border-right: 1px dotted #0b1853;
 }
 .teamDesc h4{
@@ -404,7 +404,7 @@ nav ul li a.current{
   #team .heading{
     font-size: 28px;
   }
-  #teamMember1,#teamMember2,#teamMember3{
+  #teamMember1,#teamMember2,#teamMember3,#teamMember4{
     border-bottom: 1px dotted #0b1853;
     border-right: 0px;
   }
