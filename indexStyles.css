@@ -379,8 +379,11 @@ nav ul li a.current{
   padding: 7px;
   box-shadow: 0 7px 10px #999;
 }
-#teamMember1,#teamMember2,#teamMember3,#teamMember4{
+#teamMember1,#teamMember2,#teamMember4{
   border-right: 1px dotted #0b1853;
+}
+#team_row2{
+  margin: 0 auto;
 }
 .teamDesc h4{
   color: #fff;
@@ -399,6 +402,15 @@ nav ul li a.current{
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+}
+@media (max-width:992px) {
+  /* #team .heading{
+    font-size: 28px;
+  } */
+  #teamMember1,#teamMember2,#teamMember3,#teamMember4{
+    border-bottom: 1px dotted #0b1853;
+    border-right: 0px;
+  }
 }
 @media (max-width:768px) {
   #team .heading{
